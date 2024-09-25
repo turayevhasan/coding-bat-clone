@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: APP-CODING-BAT
+  profiles:
+    active: dev

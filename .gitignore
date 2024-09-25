@@ -1,0 +1,49 @@
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.metadata
+**/*.iml
+target/
+.mvn/
+logs/
+### IntelliJ IDEA ###
+.idea
+.jpb
+*.iws
+*.iml
+*.ipr
+/mvnw
+/mvnw.cmd
+src/main/resources/*.sql
+/files/
+**/*.log
+
+
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/src/main/resources/application-dev.yml!/.idea/
